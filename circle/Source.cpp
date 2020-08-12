@@ -1,9 +1,9 @@
 #include<stdio.h> 
-main()
+int main()
 {
 	double r;
 	printf("radius = ");
-	scanf("%lf", &r);
+	scanf_s("%lf", &r);
 	if (r < 0)
 		printf("Error");
 	else
